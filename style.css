@@ -1,4 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 section{
   border: solid 5px black;
   padding: 30px 0;
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+.contenitore{
+  margin: 0 25%;
+  width: 50%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.cubo{
+  text-align: center;
+  padding: 30px 0;
+}
+.dati{
+  float: left;
+  padding: 30px 0;
+  text-align: left;
+  padding-right: 50px;
+}
+.bottone{
+  clear: both;
+  padding: 10px 50px;
+}
+.bottone button{
+  background-color: #ff7a59;
+  text-align: center;
+  border-radius: .1875rem;
+  padding: 0.9em 1.388em 0.6em;
+}
+.bottone button span{
+  color: white;
+  font-size: .833rem;
+}
+.hubspot{
+  width: auto;
+  vertical-align: middle;
+  padding: 30px 0;
+}
+.hubspot h3{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.hubspot p{
+  padding-bottom: 10px;
+}
+ul{
+  list-style-type: none;
+}
+.hubspot li{
+  padding-top: 10px;
+  display: inline-block;
+}
+.hubspot li:nth-child(2){
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.colonne_marketing{
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.colonne_marketing2{
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.colonne_marketing img{
+  width: 50%;
+  height: 150px;
+}
+.colonne_marketing h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.colonne_marketing p{
+ padding-bottom: 10px;
+}
+.colonne_marketing h4{
+  padding-bottom: 10px;
+}
+.colonne_marketing li{
+  padding-bottom: 10px;
+}
+.colonne_marketing2 img{
+  width: 100%;
+  height: 150px;
+}
+.colonne_marketing2 h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.colonne_marketing2 p{
+ padding-bottom: 10px;
+}
+.colonne_marketing2 h4{
+  padding-bottom: 10px;
+}
+.colonne_marketing2 li{
+  padding-bottom: 10px;
 }
