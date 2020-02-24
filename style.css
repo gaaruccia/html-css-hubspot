@@ -30,6 +30,83 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.contenitorericerca{
+  width: 100%;
+  padding-bottom: 24px;
+  position: fixed;
+  background-color: grey;
+  height: 50px;
+}
+.conttitolosec{
+  margin: 0 25%;
+  width: 50%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-image: url(img/jumbotron.png);
+  background-position: 100% 8%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.ricerca{
+  margin: 0 25%;
+  width: 50%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.ricerca1{
+  float: left;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  width: 100%;
+}
+.ricerca1 ul li{
+  display: inline-block;
+  color: black;
+  padding-right: 24px;
+}
+.ricerca1 ul li a{
+  margin-right: 250px;
+}
+.ricerca1 button{
+  background-color: #ff7a59;
+  text-align: center;
+  border-radius: .1875rem;
+  padding: 0.9em 1.388em 0.6em;
+  color: white;
+}
+.ricerca2{
+  margin-top: 100px;
+  float: left;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  width: 100%;
+}
+.ricerca2 ul li{
+  display: inline-block;
+  color: black;
+  padding-right: 24px;
+}
+.ricerca2 ul li a{
+  margin-right: 400px;
+}
+.titolo_sec{
+  float: left;
+  width: 50%;
+}
+.titolo_sec button{
+  background-color: #ff7a59;
+  text-align: center;
+  border-radius: .1875rem;
+  padding: 0.9em 1.388em 0.6em;
+  color: white;
+}
+.titolo_sec p{
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
 .cubo{
   text-align: center;
   padding: 30px 0;
