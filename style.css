@@ -38,15 +38,14 @@
   height: 50px;
 }
 .conttitolosec{
-  margin: 0 25%;
-  width: 50%;
+  width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
   background-image: url(img/jumbotron.png);
-  background-position: 100% 8%;
+  background-position: 100% 52%;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 1250px;
 }
 .ricerca{
   margin: 0 25%;
